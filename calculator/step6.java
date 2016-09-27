@@ -21,37 +21,37 @@ public class calculator{
         
         if (menu == 1){
             Scanner firstNumber = new Scanner(System.in);
-            System.out.print("Enter the First Number in Your Addition Problem");
+            System.out.print("Enter the First Number in Your Addition Problem_ ");
             double firstNum = firstNumber.nextDouble();
             Scanner secondNumber = new Scanner(System.in);
-            System.out.print("Enter the Second Number in Your Addition Problem");
+            System.out.print("Enter the Second Number in Your Addition Problem_ ");
             double secondNum = secondNumber.nextDouble();
             double solution = firstNum + secondNum;
             System.out.println(firstNum + " plus " + secondNum + " equals " + solution);
         }else if (menu == 2){
             Scanner firstNumber = new Scanner(System.in);
-            System.out.print("Enter the First Number in Your Subtraction Problem");
+            System.out.print("Enter the First Number in Your Subtraction Problem_ ");
             double firstNum = firstNumber.nextDouble();
             Scanner secondNumber = new Scanner(System.in);
-            System.out.print("Enter the Second Number in Your Subtraction Problem");
+            System.out.print("Enter the Second Number in Your Subtraction Problem_ ");
             double secondNum = secondNumber.nextDouble();
             double solution = firstNum - secondNum;
             System.out.println(firstNum + " minus " + secondNum + " equals " + solution);
         }else if (menu == 3){
             Scanner firstNumber = new Scanner(System.in);
-            System.out.print("Enter the First Number in Your Multiplication Problem");
+            System.out.print("Enter the First Number in Your Multiplication Problem_ ");
             double firstNum = firstNumber.nextDouble();
             Scanner secondNumber = new Scanner(System.in);
-            System.out.print("Enter the Second Number in Your Multiplication Problem");
+            System.out.print("Enter the Second Number in Your Multiplication Problem_ ");
             double secondNum = secondNumber.nextDouble();
             double solution = firstNum * secondNum;
             System.out.println(firstNum + " times " + secondNum + " equals " + solution);
         }else if (menu == 4){
             Scanner firstNumber = new Scanner(System.in);
-            System.out.print("Enter the Total Number of Items You Wish to Divide");
+            System.out.print("Enter the Total Number of Items You Wish to Divide_ ");
             double firstNum = firstNumber.nextDouble();
             Scanner secondNumber = new Scanner(System.in);
-            System.out.print("Enter the Total Number of Groups You Wish the Items Divided Into");
+            System.out.print("Enter the Total Number of Groups You Wish the Items Divided Into_ ");
             double secondNum = secondNumber.nextDouble();
             double solution = firstNum / secondNum;
             System.out.println(firstNum + " divided by " + secondNum + " equals " + solution);
