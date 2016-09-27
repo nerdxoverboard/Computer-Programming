@@ -1,4 +1,4 @@
-//Program Name: 4-Function Calculator (Switches)
+//Program Name: 4-Function Calculator
 //Programmer Name: Your Name
 //Programmer Organization: Ferris High School
 //Program Date: Fall 2016
@@ -7,7 +7,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-public class calculator_switches{
+public class calculator{
     public static void main (String[] args) throws java.lang.Exception{
         Scanner menuChoice = new Scanner(System.in);
         System.out.println("Basic Calculator");
@@ -19,30 +19,16 @@ public class calculator_switches{
         System.out.print("Enter Your Selection_");
         int menu = menuChoice.nextInt();
         
-        switch (menu) {
-            case 1:
-                {
-                    //Code for Menu Option 1
-                    break;
-                }
-            case 2:
-                {
-                    //Code for Menu Option 2
-                    break;
-                }
-            case 3:
-                {
-                    //Code for Menu Option 3
-                    break;
-                }
-            case 4:
-                {
-                    //Code for Menu Option 4
-                    break;
-                }
-            default:
-                //Code if Something Different is Entered
-                break;
+        if (menu == 1){
+            //Code for Menu Option 1
+        }else if (menu == 2){
+            //Code for Menu Option 2
+        }else if (menu == 3){
+            //Code for Menu Option 3
+        }else if (menu == 4){
+            //Code for Menu Option 4
+        }else{
+           //Code if Other Integer Option is Selected
         }
     }
 }
