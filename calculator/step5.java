@@ -22,19 +22,19 @@ public class calculator{
         if (menu == 1){
             Scanner firstNumber = new Scanner(System.in);
             System.out.print("Enter the First Number in Your Addition Problem");
-            double firstNum = FirstNumber.nextDouble();
+            double firstNum = firstNumber.nextDouble();
             Scanner secondNumber = new Scanner(System.in);
             System.out.print("Enter the Second Number in Your Addition Problem");
-            double secondNum = SecondNumber.nextDouble();
+            double secondNum = secondNumber.nextDouble();
             double solution = firstNum + secondNum;
             System.out.println(firstNum + " plus " + secondNum + " equals " + solution);
         }else if (menu == 2){
             Scanner firstNumber = new Scanner(System.in);
             System.out.print("Enter the First Number in Your Subtraction Problem");
-            double firstNum = FirstNumber.nextDouble();
+            double firstNum = firstNumber.nextDouble();
             Scanner secondNumber = new Scanner(System.in);
             System.out.print("Enter the Second Number in Your Subtraction Problem");
-            double secondNum = SecondNumber.nextDouble();
+            double secondNum = secondNumber.nextDouble();
             double solution = firstNum - secondNum;
             System.out.println(firstNum + " minus " + secondNum + " equals " + solution);
         }else if (menu == 3){
