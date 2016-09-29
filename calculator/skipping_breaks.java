@@ -10,7 +10,7 @@ import java.io.*;
 public class breaks{
     public static void main (String[] args) throws java.lang.Exception{
         Scanner menuChoice = new Scanner(System.in);
-        System.out.println("Basic Calculator");
+        System.out.println("Letter Generator");
         System.out.println("1 - Option 1");
         System.out.println("2 - Option 2");
         System.out.println("3 - Option 3");
